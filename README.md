@@ -1,8 +1,7 @@
 # kasichennupati.github.io
 Portfolio Website of Kasi Chennupati
 
-This is the Portfolio Site of me. 
-This is where i record the personal projects and activities.
+This is my Portfolio Site 
 
 ------------------------------------------------------------
 --------#----#----#-#-#-#-----#-#-#-#-#-#----#-#-#-#-#------
