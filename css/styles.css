@@ -1,0 +1,273 @@
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  color: rgb(0,128,128); 
+}
+
+a:hover {
+  color: rgb(58, 38, 147);
+}
+
+.text-primary {
+  color: rgb(105, 179, 162) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 10;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+u {
+  padding-bottom: 3px;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+ul.social-buttons {
+  margin-bottom: 0px;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease 0s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: rgb(33, 37, 41);
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: rgb(254, 209, 54);
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+@media (min-width: 768px) {
+  section {
+      padding: 150px 0px;
+  }
+}
+
+.isDisabled {
+  color: currentcolor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.btn {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+  margin: 3px;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: rgb(105, 179, 162);
+  color: rgb(105, 179, 162);
+  border-width: medium;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  color: white;
+  background-color: rgb(105, 179, 162) !important;
+  border-color: rgb(105, 179, 162) !important;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: rgba(254, 209, 55, 0.5) 0px 0px 0px 0.2rem !important;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: rgb(105, 179, 162);
+  color: rgb(105, 179, 162);
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  color: white;
+  background-color: rgb(105, 179, 162) !important;
+  border-color: rgb(105, 179, 162) !important;
+}
+
+.btn-secondary:active, .btn-secondary:focus {
+  background-color: rgb(105, 179, 162) !important;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active {
+  color: white;
+  background-color: rgb(105, 179, 162) !important;
+  border-color: rgb(105, 179, 162) !important;
+}
+
+::selection {
+  background: rgb(105, 179, 162);
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+
+#particles-js {
+  width: 100%;
+  height: 800px;
+  background-color: white;
+  background-image: url("");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+#mainNav {
+  background-color: white;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0px;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0px;
+  background-color: rgb(105, 179, 162);
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  color: rgb(105, 179, 162);
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: rgb(37, 22, 103);
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0px;
+  letter-spacing: 1px;
+  color: black;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(105, 179, 162);
+  background-color: white;
+  border-bottom: 3px solid rgb(105, 179, 162);
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      transition: padding-top 0.3s ease 0s, padding-bottom 0.3s ease 0s;
+      background-color: transparent;
+  }
+
+  #mainNav .navbar-brand {
+      font-size: 1.75em;
+      transition: all 0.3s ease 0s;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important;
+  }
+
+  #mainNav.navbar-shrink {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      background-color: white;
+  }
+
+  #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.25em;
+      padding: 12px 0px;
+  }
+}
+
+.firsthead {
+  text-align: center;
+  color: black;
+  position: relative;
+  overflow: hidden;
+}
+
+header.firsthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+header.firsthead .intro-text .intro-lead-in {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header.firsthead .intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  header.firsthead .intro-text {
+      padding-top: 100px;
+      padding-bottom: 200px;
+  }
+
+  header.firsthead .intro-text .intro-lead-in {
+      font-size: 16px;
+      font-style: italic;
+      color: grey;
+      line-height: 40px;
+      margin-bottom: 25px;
+      margin-right: 20%;
+      margin-left: 20%;
+      font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  header.firsthead .intro-text .intro-heading {
+      font-size: 75px;
+      font-weight: 700;
+      line-height: 75px;
+      margin-bottom: 50px;
+      font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}
+
+.textlanding {
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  max-width: 600px;
+  padding: 2em 3em;
+}
