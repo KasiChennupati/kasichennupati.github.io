@@ -271,3 +271,42 @@ header.firsthead .intro-text .intro-heading {
   max-width: 600px;
   padding: 2em 3em;
 }
+
+
+section#contact {
+  background-color: rgb(254, 254, 254);
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+section#contact .section-heading {
+  color: rgb(255, 255, 255);
+}
+
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+
+section#contact .form-group input, section#contact .form-group textarea {
+  padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 248px;
+}
+
+section#contact .form-control:focus {
+  border-color: rgb(254, 209, 54);
+  box-shadow: none;
+}
+
+section#contact ::-webkit-input-placeholder {
+  font-weight: 700;
+  color: rgb(206, 212, 218);
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
