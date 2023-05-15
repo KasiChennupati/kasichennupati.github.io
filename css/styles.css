@@ -273,6 +273,39 @@ header.firsthead .intro-text .intro-heading {
 }
 
 
+section#learn .guidestitle {
+  font-size: 23px;
+  color: black;
+  font-weight: 400; 
+}
+
+section#learn .guidesfeature {
+  font-size: 12px;
+  color: grey;
+}
+
+section#learn .guidestext {
+  font-size: 18px;
+  color: black;
+  font-weight: 100;
+}
+
+section#learn .guidesreadmore {
+  font-size: 18px;
+  color: rgb(105, 179, 162);
+  font-weight: 300;
+}
+
+
+section h3.section-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 45px;
+  text-transform: none;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 section#contact {
   background-color: rgb(254, 254, 254);
   background-image: url("../img/map-image.png");
@@ -310,3 +343,4 @@ section#contact ::-webkit-input-placeholder {
   color: rgb(206, 212, 218);
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
